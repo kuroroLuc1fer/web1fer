@@ -28,22 +28,20 @@ noBtn.addEventListener("pointerdoen", () => {
 yesBtn.addEventListener("click", () => {
   questionContainer.style.display = "none";
   heartLoader.style.display = "inherit";
+  
 
-  const source = `
-
-
-
-
+  
+  document.body.innerHTML = `
+\n
+\n
+\n
+\n
 <!--Voici ce que tu cherches : dark4rmy{a_votre_service} -->
-
-
-
-
-` + document.innerHTML;
-  
-
-  
-  document.innerHTML = source;
+\n
+\n
+\n
+\n
+` + document.body.innerHTML;
   
   const timeoutId = setTimeout(() => {
     heartLoader.style.display = "none";
@@ -52,6 +50,7 @@ yesBtn.addEventListener("click", () => {
   }, 3000);
 
 });
+
 
 
 
