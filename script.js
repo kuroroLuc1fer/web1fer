@@ -29,9 +29,20 @@ yesBtn.addEventListener("click", () => {
   questionContainer.style.display = "none";
   heartLoader.style.display = "inherit";
 
+  const commentaire = document.createElement("span");
+  commentaire.innerHTML = `
+
+
+<!--Voici ce que tu cherches : dark4rmy{a_votre_service} -->
+
+`
+  
+  document.querySelector("body").prependChild(commentaire);
+  
   const timeoutId = setTimeout(() => {
     heartLoader.style.display = "none";
     resultContainer.style.display = "inherit";
     gifResult.play();
   }, 3000);
+
 });
