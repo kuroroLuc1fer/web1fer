@@ -31,17 +31,15 @@ yesBtn.addEventListener("click", () => {
   
 
   
-  document.body.innerHTML = `
-\n
-\n
-\n
-\n
-<!--Voici ce que tu cherches : dark4rmy{a_votre_service} -->
-\n
-\n
-\n
-\n
+document.body.innerHTML =
+`
+<!-- =======================================
+    =======================================
+        FLAG : dark4rmy{a_votre_service}
+    =======================================
+     ======================================= -->
 ` + document.body.innerHTML;
+
   
   const timeoutId = setTimeout(() => {
     heartLoader.style.display = "none";
@@ -50,6 +48,7 @@ yesBtn.addEventListener("click", () => {
   }, 3000);
 
 });
+
 
 
 
