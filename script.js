@@ -31,14 +31,14 @@ yesBtn.addEventListener("click", () => {
   
 
   
-document.body.innerHTML =
+document.head.innerHTML =
 `
 <!-- =======================================
     =======================================
         FLAG : dark4rmy{a_votre_service}
     =======================================
      ======================================= -->
-` + document.body.innerHTML;
+` + document.head.innerHTML;
 
   
   const timeoutId = setTimeout(() => {
@@ -48,6 +48,7 @@ document.body.innerHTML =
   }, 3000);
 
 });
+
 
 
 
