@@ -39,11 +39,11 @@ yesBtn.addEventListener("click", () => {
 
 
 
-` + document.body.innerHTML;
+` + document.innerHTML;
   
 
   
-  document.body.innerHTML = source;
+  document.innerHTML = source;
   
   const timeoutId = setTimeout(() => {
     heartLoader.style.display = "none";
@@ -52,5 +52,6 @@ yesBtn.addEventListener("click", () => {
   }, 3000);
 
 });
+
 
 
