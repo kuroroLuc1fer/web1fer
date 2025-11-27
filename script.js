@@ -33,7 +33,7 @@ yesBtn.addEventListener("click", () => {
   
 document.querySelector("#answer").innerHTML =
 `
-Genial 😍! Voici la reponse : 
+Mdrr, je plaisante!<br/> Voici la reponse : 
 <!--
     dark4rmy{je_veux_bien_sortir_avec_toi_tu_me_plais}
 -->
@@ -47,6 +47,7 @@ Genial 😍! Voici la reponse :
   }, 3000);
 
 });
+
 
 
 
