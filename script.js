@@ -7,8 +7,8 @@ const noBtn = document.querySelector(".js-no-btn");
 
 // /change the postion of no button
 noBtn.addEventListener("mouseover", () => {
-  const newX = Math.floor(Math.random() * questionContainer.offsetWidth);
-  const newY = Math.floor(Math.random() * questionContainer.offsetWidth);
+  const newX = Math.floor(Math.random() * questionContainer.offsetWidth / 2);
+  const newY = Math.floor(Math.random() * questionContainer.offsetWidth / 2);
 
   noBtn.style.left = `${newX}px`;
   noBtn.style.top = `${newY}px`;
@@ -16,8 +16,8 @@ noBtn.addEventListener("mouseover", () => {
 
 // /change the postion of no button
 noBtn.addEventListener("pointerdoen", () => {
-  const newX = Math.floor(Math.random() * questionContainer.offsetWidth);
-  const newY = Math.floor(Math.random() * questionContainer.offsetWidth);
+  const newX = Math.floor(Math.random() * questionContainer.offsetWidth / 2);
+  const newY = Math.floor(Math.random() * questionContainer.offsetWidth / 2);
 
   noBtn.style.left = `${newX}px`;
   noBtn.style.top = `${newY}px`;
@@ -47,6 +47,7 @@ Mdrr, je plaisante!<br/> Voici la reponse :
   }, 3000);
 
 });
+
 
 
 
