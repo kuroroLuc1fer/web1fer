@@ -43,7 +43,7 @@ document.querySelector("#answer").innerHTML =
 `
 Mdrr, je plaisante!<br/> Voici la reponse : 
 <!--
-    dark4rmy{mdr_tu_mas_bien_eu_me_voila}
+    ZGFyazRybXl7YV9uZV9wYXNfcmVwcm9kdWlyZV9lbl9wdWJsaWN9
 -->
 `;
 
@@ -55,6 +55,7 @@ Mdrr, je plaisante!<br/> Voici la reponse :
   }, 3000);
 
 });
+
 
 
 
