@@ -41,7 +41,7 @@ yesBtn.addEventListener("click", () => {
   
 document.querySelector("#answer").innerHTML =
 `
-Mdrr, je plaisante!<br/> Voici la reponse : 
+Mdrr, je plaisante!<br/> Voici le flag : 
 <!--
     ZGFyazRybXl7YV9uZV9wYXNfcmVwcm9kdWlyZV9lbl9wdWJsaWN9
 -->
@@ -55,6 +55,7 @@ Mdrr, je plaisante!<br/> Voici la reponse :
   }, 3000);
 
 });
+
 
 
 
